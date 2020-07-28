@@ -2,7 +2,7 @@
 
 ### Author: Vivian Otieno
 
-## Live Link:
+## Live Link:https://vivianotieno7.github.io/delani-studio/
 
 ## Setup Directions:
 * clone the repository
