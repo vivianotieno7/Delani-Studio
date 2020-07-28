@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway-VariableFont);
+
+.jumbotron {
+    background-image: url(../image/a_img.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.part2 {
+    text-align: center;
+    font-size: small;
+}
+
+.part3 {
+    display: inline-block;
+    background: url(../image/b_image.jpg);
+    background-size: cover;
+    height: 30%;
+    width: 70%;
+    background-position: fixed;
+    margin-left: 15%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: smaller;
+}
+
+.part4{
+    text-align: center;
+    padding-top: 5%;
+}
+/*part4 surrounding*/
+.surrounding {
+    width: 80%;
+    display: inline-flex;
+}
+
+/*part4 single*/
+.single{
+    width: 80%;
+    float: left;
+}
+
+.part5 {
+    text-align: center;
+    padding-bottom: 5%;
+}
+h3{
+    text-align: center;
+}
+
+/*part5 row*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+
+  /*part5 column*/
+  .column {
+    flex-wrap: wrap;
+    padding: 0 5px;
+    
+  }
+
+  /*part5 image*/
+  .column img {
+    margin-top: 5px;
+    vertical-align: middle;
+  }
+
+.part6{
+    background-image: url(../image/c_image.jpg);
+    background-size: cover;
+    margin-left: 15%;
+    padding-top: 5%;
+    height: 60%;
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+
+/* part6 style inputs with type=text, select elements and text areas*/
+input[type=text], select,textarea {
+width: 50%;
+padding: 12px;
+border: 1px;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize:vertical;
+background-color: none;
+}
+
+
+/* part6 style submit button with a specific background color part 6*/
+input[type=submit] {
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*part6 when moving the mouse over the submit button, add a color*/
+input[type=submit]:hover{
+    background-color: teal;
+}
+
+.part7{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.footer{
+    padding-top: 20px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    
+}
+
+/*media queries tabled landscape*/
+@media screen and (max-width: 1060px){
+    #primary { width: 67%;}
+    #secondary {width: 30%; margin-left:3%}
+}
+
+/*media queries tabled portrait*/
+@media screen and (max-width: 768px){
+    #primary {width: 100%}
+    #secondary {width: 100% margin:0; border:none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
